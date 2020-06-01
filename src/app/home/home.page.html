@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+	<ion-toolbar color='clear'>
+		<ion-title>
+			Find My Hospital  <ion-icon name="bandage-outline"></ion-icon>
+		</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+	<div id="container">
+		<img src='https://cdn.pixabay.com/photo/2014/12/10/21/01/doctor-563428_1280.jpg'>
+		<h1>Consulte os Hospitais</h1>
+
+		<ion-button color='clear' expand='block' size='large' class="btn-login"
+		[routerLink]="['/login']">Login
+		</ion-button>
+
+		<p>Não tem cadastro? <a [routerLink]="['/cadastro']">Clique aqui!</a></p>
+	</div>
+</ion-content>

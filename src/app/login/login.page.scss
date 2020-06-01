@@ -1,0 +1,36 @@
+ion-toolbar{
+    background-color: #16ade1;
+    }
+    #container{
+    padding: 100px;
+    }
+    #container img{
+    width: 100px;
+    margin-top: 20px;
+    }
+    #container p, span{
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    margin:0;
+    margin-left: 10px;
+    }
+    #container a{
+    color: #16ade1;
+    }
+    .bv{
+    color: #16ade1 !important;
+    margin-top: 10px !important;
+    }
+    ion-input{
+    background: #eee;
+    margin-left: 10px !important;
+    }
+    ion-label{
+    margin-bottom: 10px !important;
+    margin-left: 10px !important;
+    }
+    .btn-login{
+    background: #16ade1;
+    margin: 10px;
+    }
